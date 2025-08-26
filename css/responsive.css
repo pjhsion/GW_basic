@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+
+
+/* ****************************************************************************************** *
+ * 1200px
+ * ****************************************************************************************** */
+@media screen and (max-width:1200px) {
+	
+	/* 영역 공통 */
+	.main_boundary,	.sub_boundary{padding:0 24px;}
+	#aside{display:none;}
+	
+	/* main */
+	.main_section{padding:64px 0 80px;}
+	.main_intro .keyword{right:24px; bottom:-110px;}
+	.main_lastest_gall_basic{padding-bottom:0;}
+
+	/* sub */
+	.sub_sec{padding:64px 0 80px}
+	.sub_header_container img{width:100%; height:100%; object-fit:cover;}
+	
+	/* breadcrumb */
+	.breadcrumb{padding:1.5rem 24px;}
+	.breadcrumb li{font-size:15px;}
+	
+
+}
+/* 1200px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 1024px
+ * ****************************************************************************************** */
+@media screen and (max-width:1024px) {
+
+
+	/* sub header 공통 */
+	.sub_header_container{height:260px;}
+
+	/* breadcrumb */
+	.breadcrumb{margin-bottom:2rem;}
+
+	/* 게시판 group */
+	.gw_group{padding-top:2rem;} 
+
+}
+/* 1024px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 980px
+ * ****************************************************************************************** */
+@media (max-width:980px){
+	
+	/* 게시판 group */
+	.gw_group .gw_group_inner{width:calc(49.9999% - 24px);}
+
+}
+/* 980px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 768px
+ * ****************************************************************************************** */
+@media screen and (max-width:768px) {
+
+
+	/* 회원가입약관 */
+	#sns_register{background:#f7f7f7;}
+
+	/* main */
+	.main_intro .content{padding:0 24px;}
+	.main_intro .content > p{font-size:14px;}
+	.main_icon_area .icon_item > .txt{padding:0 24px}
+
+	/* 게시판 group */
+	.gw_group{padding-top:1rem; padding-bottom:84px;} 
+	.gw_group .gw_group_inner{width:calc(100% - 24px); margin:0 12px;}
+
+}
+/* 768px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 767px
+ * ****************************************************************************************** */
+@media screen and (max-width:767px) {
+	
+	/* 영역 공통 */
+	.main_boundary, .sub_boundary{padding:0 20px;}
+	#container{min-height:480px; font-size:14px;}
+	#container_title{padding:80px 0 20px;}
+	#container_title span{margin:0; line-height:1.33; position:relative;}
+
+	/* 버튼 공통 */
+	a.btn, .btn{height:32px; line-height:32px;}
+
+	/* main */
+	.main_section .title > span{font-size:13px;}
+	.main_section .title > h2{padding-bottom:24px; font-size:32px;}
+	.main_intro .content{text-align:left;}
+	.main_intro .content > p {line-height:1.6; font-size:15px;}
+
+	/* sub */
+	.sub_header_container{height:200px;}
+
+	/* breadcrumb */
+	.breadcrumb{margin:0; padding:1rem 0; text-align:left;}
+	.breadcrumb li:after{top:2px; border-color:#acafb9;}
+	.breadcrumb li{font-size:13px;}
+	.breadcrumb li a{color:#acafb9;}
+	.breadcrumb li.active{color:#646873;}
+
+}
+/* 767px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 480px
+ * ****************************************************************************************** */
+@media screen and (max-width:480px) {
+
+	/* 영역 공통 */
+	.main_boundary,	.sub_boundary{padding:0 15px;}
+	#container{font-size:13px;}
+	#container_title{font-size:24px;}
+
+	/* 버튼 공통 */
+	a.btn, .btn{height:28px; line-height:28px; padding:0 6px; font-size:12px;}
+
+	/* 회원가입약관 */
+	#sns_register{margin-bottom:60px; padding:10px 24px 15px;}
+	#sns_register:before{bottom:-30px;}
+	#sns_register:after{bottom:-38px; width:60px; font-size:15px;}
+	#sns_register h2{padding-bottom:5px; font-size:14px;}
+
+	/* main */
+	.main_section{padding:64px 0;}
+	.main_intro .keyword{font-size:110px;}
+	.main_intro .content > h4{font-size:16px;}
+	.main_intro .content > p{line-height:1.8; font-size:13px;}
+	.main_intro .content > p > span{display:inline;}
+	.main_icon_area .icon_item{width:100%; margin-bottom:32px;}
+	.main_icon_area .icon_item:last-child{margin-bottom:0;}
+	.main_icon_area .icon_item > .txt > h4{padding-bottom:5px;}
+	.main_icon_area .icon_item > .txt > p{font-size:13px;}
+
+	/* sub */
+	.sub_header_container{height:160px;}
+
+	/* breadcrumb */
+	.breadcrumb{margin:0;}
+	.sub_header_container .sub_header p span{font-size:24px;}
+
+}
+/* 480px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 425px
+ * ****************************************************************************************** */
+@media screen and (max-width:425px) {
+
+	/* 팝업 */
+	.hd_pops{top:50px !important; left:50% !important; margin-left:-150px;}
+	.hd_pops_con{width:300px !important; height:408px !important; margin:auto;}	
+
+	/* 영역 공통 */
+	.main_boundaryy{padding:0 15px;}
+	.sub_boundary{padding:0 15px;}
+	.gw_boundary{padding:0 15px;}
+
+	/* main */
+	.main_section .title > h2{font-size:28px;}
+	.main_intro .content{padding:0 10px; text-align:justify;}
+	.main_intro .content > h4{font-size:18px;}
+
+
+}
+/* 425px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 320px
+ * ****************************************************************************************** */
+@media screen and (max-width:320px) {
+
+	/* main */	
+	.main_section .title > h2{font-size:24px;}
+}
+/* 320px end */

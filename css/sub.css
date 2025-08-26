@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/* 테마/sub/서브페이지.php 에 사용되는 css를 추가 할 수 있습니다. */
+
+
+/* ****************************************************************************************** */
+/* sub section common */
+.sub_sec{padding:100px 0 150px}
+.sub_sec .title{padding-bottom:4rem; text-align:center;}
+.sub_sec .title h3{padding-bottom:4px; letter-spacing:0.02em; text-transform:capitalize; font-size:36px; font-weight:400;}
+.sub_sec .title h3 span{text-transform:uppercase;}
+.sub_sec_con{}
+
+
+
+/* ****************************************************************************************** */
+/* about.php - 회사소개 */
+.about_intro_sec dl{}
+.about_intro_sec dl dt{position:relative; height:360px; background:url('../img/about_intro.jpg') center no-repeat; background-attachment:fixed;}
+.about_intro_sec dl dt span{position:absolute; font-size:72px; font-weight:100; color:#fff;}
+.about_intro_sec dl dt span:first-child{top:1rem; right:1rem;}
+.about_intro_sec dl dt span:last-child{bottom:1rem; left:1rem;}
+.about_intro_sec dl dd{padding-top:2rem;}
+.about_intro_sec dl dd h2{padding-bottom:1rem; letter-spacing:-0.04em; font-size:48px; font-weight:300;}
+.about_intro_sec dl dd div{padding-left:11rem; font-size:0}
+.about_intro_sec dl dd p{display:inline-block; width:50%; padding-left:1rem; vertical-align:top; line-height:1.8; font-size:15px;}
+.about_intro_sec dl dd span{display:block;}
+
+/* 회사철학 */
+.about_phil{max-width:1024px; width:100%; margin:auto; font-size:0;}
+.about_phil li{display:inline-block; width:calc(33.3333% - 32px); margin:0 16px; box-shadow:0 3px 6px 0 rgba(0,0,0,0.1); text-align:center; font-size:15px; vertical-align:top;}
+.about_phil li:first-child{background:#237ab8; color:#fff;}
+.about_phil li:nth-child(2){background:#5bb6e2; color:#fff;}
+.about_phil li:nth-child(3){background:#f7f7f7;}
+.about_phil li .icon{padding:24px; position:relative;}
+.about_phil li:nth-child(3) .icon:after{background:#646873;}
+.about_phil li .icon figure{width:4rem; height:4rem; margin:0 auto; padding:0; border-radius:2rem; background:#fff; position:relative;}
+.about_phil li .icon figure img{position:absolute; top:50%; left:50%; margin-top:-22px; margin-left:-22px;}
+.about_phil li .txt{padding:0 24px 16px;min-height:150px;}
+.about_phil li .txt h4{padding-bottom:1rem; text-transform:uppercase; letter-spacing:0.1em; font-size:1.125rem; font-weight:700; }
+
+/* 프로필 */
+.about_profile_sec{background:#fafafa;}
+.about_profile_sec > .inner{max-width:1024px; margin:auto; padding:0 14px;}
+.about_profile_sec dl{margin-bottom:10px; padding:15px 40px; background:#fff; line-height:1;}
+.about_profile_sec dl:after{content:""; display:block; clear:both;}
+.about_profile_sec dl dt{float:left; width:200px; padding:10px 0; text-align:center; font-weight:600;}
+.about_profile_sec dl dd{margin-left:200px; padding:10px 0;}
+
+
+
+/* ****************************************************************************************** */
+/* contact.php - 오시는길 */
+.contact_sec .address_info{margin-top:-5px; padding:1.5rem 2rem; background:#f9f9f9; font-size:0;}
+.contact_sec .address_info dl, .contact_sec .address_info dl dt, .contact_sec .address_info dl dd{display:inline-block; vertical-align:middle; line-height:1;}
+.contact_sec .address_info dl{width:50%; font-size:15px;}
+.contact_sec .address_info dl dt{font-weight:600; padding:.75rem 1.5rem; border:1px solid #646873; border-radius:2rem;}
+.contact_sec .address_info dl dd{padding-left:.5rem; font-size:18px;}
+
+.contact_sec .contact_info{padding-top:2rem;font-size:0;}
+.contact_sec .contact_info dl, .contact_sec .contact_info dl dt, .contact_sec .contact_info dl dd{display:inline-block; vertical-align:top;}
+.contact_sec .contact_info dl{width:50%; margin-bottom:1rem;}
+.contact_sec .contact_info dl dt{width:100px; height:100px; border-radius:50px; border:1px solid #646873; text-align:center; font-size:15px;}
+.contact_sec .contact_info dl dt i{position: relative; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%); font-size:20px;}
+.contact_sec .contact_info dl dd{width:calc(100% - 100px); padding-top:.5rem; padding-left:1rem; font-size:15px;}
+.contact_sec .contact_info dl dd h4{padding-bottom:4px; }
+.contact_sec .contact_info dl dd p{font-size:14px;}
+
+
+
+/* ****************************************************************************************** */
+/* work.php - 사업분야 */
+.work_area_sec ul{margin:0 -16px; font-size:0;}
+.work_area_sec ul li{display:inline-block; width:calc(33.3333% - 32px); margin:0 16px; font-size:15px;}
+.work_area_sec ul li *{-webkit-transition:all .3s ease-out; transition:all .3s ease-out;}
+.work_area_sec ul li > div:first-child{height:240px; background:#fafafa; overflow:hidden;}
+.work_area_sec ul li > div:last-child{padding:1.5rem 0 3rem;}
+.work_area_sec ul li h4{padding-bottom:.5rem; font-size:18px;}
+.work_area_sec ul li img{width:100%; height:100%; object-fit:cover; -webkit-filter:grayscale(100%); filter:grayscale(100%);}
+.work_area_sec ul li:hover img{-webkit-filter:inheirt; filter:inherit;}
+.work_area_sec ul li:hover h4{color:#5bb6e2;}
+
+/* 진행과정 */
+.process_sec{background:linear-gradient(to right bottom, #fff 50%, #fafafa 50%);}
+.process_sec .content{width:100%; margin:auto;}
+.process_sec .process{text-align:center;}
+.process_sec .process li{display:inline-block; width:16rem; height:16rem; margin:0 2rem 2rem; padding:2rem 2rem 1rem; border-radius:8rem; border:2px solid #646873;	
+	vertical-align:top; -webkit-transition:all .3s ease-out; transition:all .3s ease-out;}
+.process_sec .process li > h4{padding-bottom:1rem; font-size:1.25rem;}
+.process_sec .process li:hover{background:#3e4046; border-color:#3e4046; color:#fff;}
+
+/* 프로젝트 의뢰하기 */
+.project_request_sec{padding:8rem 0; background:url('../img/sub_start_project.jpg') no-repeat; background-attachment:fixed;}
+.project_request_sec .content{max-width:1200px; margin:auto;}
+.project_request_sec .content p{font-size:18px;}
+.project_request_sec .content a{position:relative; font-size:40px; -webkit-transition:all .3s ease-out; transition:all .3s ease-out;}
+.project_request_sec .content i{position:absolute; top:50%; right:0; width:0; height:32px; background:url('../img/icon_arrow_next.svg') no-repeat;
+	background-size:auto 16px; opacity:0; -webkit-transition:all .3s ease-out; transition:all .3s ease-out;}
+
+/* 프로젝트 의뢰하기 hover */
+.project_request_sec .content a:hover{color:#5bb6e2;}
+.project_request_sec .content a:hover i{opacity:1; right:-80px; width:70px;}
+
+
+
+/* ****************************************************************************************** */
+/* partner.php - 사업분야 */
+.partner_sec ul{max-width:1600px; margin:auto; font-size:0}
+.partner_sec ul li{position:relative; display:inline-block; width:calc(25% - 24px); height:240px; margin:0 12px; font-size:16px; overflow:hidden;}
+.partner_sec ul li .original{position:relative; width:100%; height:100%; background:#f7f7f7; }
+.partner_sec ul li .original span{position:absolute; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%,-50%); 
+	text-transform:capitalize; letter-spacing:0.1em; font-size:20px; font-weight:600;}
+.partner_sec ul li .covered{position:absolute; bottom:-100px; left:0; width:calc(100% - 32px); height:100px; padding:1rem; background:#fff; opacity:0; font-size:14px;
+	-webkit-transition:all .3s ease; transition:all .3s ease;}
+.partner_sec ul li:hover .covered{bottom:0; opacity:1}
+
+/* our client */
+.client_sec{background:#f5f6f7;}
+.client_sec .client{max-width:1024px; margin:auto; }
+.client_sec ul{margin:0 -12px; font-size:0;}
+.client_sec ul li{display:inline-block; width:calc(33.3333% - 24px); margin:0 12px 24px; height:160px; background:#fff; text-align:center; vertical-align:top; font-size:16px;
+	-webkit-transition:all .3s ease-out; transition:all .3s ease-out;}
+.client_sec ul li figure{position:relative; width:100%; height:100%; margin:0; padding:0; }
+.client_sec ul li img{position:absolute; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%,-50%); width:50%; height:auto;}
+.client_sec ul li:hover{box-shadow:0 10px 30px 0 rgba(0,0,0,0.1);}
+
+
+/* ****************************************************************************************** */
+/* gnuwiz.php */
+.gnuwiz_area_sec ul{}
+.gnuwiz_area_sec .gnuwiz_area:after{content:''; display:block; clear:both;}
+.gnuwiz_area_sec .gnuwiz_area li{float:left; width:calc(25% - 1rem); margin:0 .5rem; }
+.gnuwiz_area_sec .gnuwiz_area li h5{-webkit-transform:translateY(9px); transform:translateY(9px); font-size:2.5rem; color:#dde0e3; -webkit-transition:all .3s ease; transition:all .3s ease;}
+.gnuwiz_area_sec .gnuwiz_area li p{position:relative; padding:1rem; background:#f7f7f7; text-align:right; z-index:2; overflow:hidden;}
+.gnuwiz_area_sec .gnuwiz_area li p:after{content:""; position:absolute; left:0; top:0; width:0%; height:100%; background:#646873; z-index:-1;
+	-webkit-transition:all .3s ease; transition:all .3s ease;}
+.gnuwiz_area_sec .gnuwiz_area li:hover h5{color:#646873;}
+.gnuwiz_area_sec .gnuwiz_area li:hover p{color:#fff;}
+.gnuwiz_area_sec .gnuwiz_area li:hover p:after{width:100%;}
+
+.maintenance_sec .maintenance:after{content:''; display:block; clear:both;}
+.maintenance_sec .maintenance li{float:left; position:relative; width:calc(50% - 2rem); margin:0 1rem 2rem; box-shadow:0 10px 35px 0 rgba(154,161,171,.2);}
+.maintenance_sec .maintenance li figure{position:relative; margin:0; padding-top:50%; overflow:hidden;}
+.maintenance_sec .maintenance li figure img{position:absolute; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%,-50%); }
+.maintenance_sec .maintenance li div{position:absolute; bottom:0; left:0; right:0; width:80%; margin:auto; padding:1rem 1rem 1.5rem; background:#fff;}
+.maintenance_sec .maintenance li div h5{margin-bottom:.75rem;}
+
+/* ****************************************************************************************** *
+ * 1200px
+ * ****************************************************************************************** */
+@media screen and (max-width:1200px) {
+	
+	/* about */
+	.about_contact_sec{padding:6rem 2rem;}
+
+}
+/* 1200px end */
+
+
+
+/* ****************************************************************************************** *
+ * 1024px
+ * ****************************************************************************************** */
+@media screen and (max-width:1024px) {
+	
+	/* about */
+	.about_profile_sec > .inner{padding:0 24px;}
+
+	/* partner.php */
+	.partner_sec ul,
+	.client_sec ul{margin:0 12px;}
+
+}
+/* 1024px end */
+
+
+
+/* ****************************************************************************************** *
+ * 768px
+ * ****************************************************************************************** */
+@media screen and (max-width:768px) {
+	
+	/* about.php - 회사소개 */
+	.about_phil li{width:calc(100%); margin:0 0 1rem; font-size:13px;}
+	.about_phil li .txt{padding:0 24px 24px;}
+	.about_contact_sec{padding:4rem 2rem;}
+	.about_intro_sec dl dt span{font-size:48px;}
+	.about_intro_sec dl dd h2{font-size:32px;}
+	.about_intro_sec dl dd div{padding-left:0;}
+	.about_intro_sec dl dd p{width:100%; padding-left:0;}
+	.about_intro_sec dl dd p:first-child{padding-bottom:1rem;}
+
+
+	/* partner.php */
+	.partner_sec ul li{width:calc(50% - 24px); margin:0 12px 24px;}
+	.partner_sec ul li .covered{bottom:0; opacity:1}
+
+	/* contact */
+	.contact_sec .address_info{padding:1.5rem 1rem 1rem;}
+	.contact_sec .address_info dl dt{margin-bottom:.5rem; font-size:14px;}
+	.contact_sec .address_info dl dd{font-size:16px;}
+	.contact_sec .contact_info dl dt{width:80px; height:80px;}
+	.contact_sec .contact_info dl dd{width:calc(100% - 80px); padding-top:.25rem;}
+
+		
+	/* gnuwiz */
+	.gnuwiz_area_sec .gnuwiz_area li{width:calc(50% - 1rem);}
+	.maintenance_sec .maintenance li{width:calc(100% - 2rem); }
+
+}
+/* 768px end */
+
+
+
+/* ****************************************************************************************** *
+ * 767px
+ * ****************************************************************************************** */
+@media screen and (max-width:767px) {
+
+	/* about.php - 회사소개 */
+	.about_profile_sec > .inner{padding:0 20px;}
+	.about_profile_sec dl{padding:10px 15px;}
+	.about_profile_sec dl dt, 
+	.about_profile_sec dl dd{float:none; width:100%; margin-left:0; padding:5px 0; text-align:left;}
+	
+
+	/* partner.php */
+	.partner_sec ul, .client_sec ul{margin:0 10px;}
+	.partner_sec ul li{width:calc(50% - 20px); margin:0 10px 20px;}
+	.client_sec ul li{width:calc(33.3333% - 20px); margin:0 10px 20px;}
+
+
+	/* contact */
+	.contact_sec .address_info{padding:1.5rem;}
+	.contact_sec .address_info dl{width:100%;}
+	.contact_sec .address_info dl:nth-child(1){padding-bottom:.5rem;}
+	.contact_sec .address_info dl dt{margin-bottom:0; padding:0; border:0; font-size:14px;}
+	.contact_sec .address_info dl dd{font-size:14px;}
+
+	.contact_sec .contact_info dl{width:100%;}
+	.contact_sec .contact_info dl dt{width:60px; height:60px; font-size:16px;}
+	.contact_sec .contact_info dl dd{width:calc(100% - 60px); padding-left:.5rem;}
+	.contact_sec .contact_info dl dd p{display:inline; font-size:13px;}
+	.contact_sec .contact_info dl dd p:nth-of-type(1){padding-right:8px;}
+	.contact_sec .contact_info dl dt i {font-size:18px;}
+
+
+	/* work */
+	.work_area_sec ul li{width:calc(100% - 32px);}
+	.process_sec{background:#f7f7f7;}
+	.project_request_sec{padding:4rem 20px;}
+	.project_request_sec .content a{font-size:36px;}
+
+}
+/* 767px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 480px
+ * ****************************************************************************************** */
+@media screen and (max-width:480px) {
+	
+	/* sub section common */
+	.sub_sec .title{padding:0 1rem 3rem;}	
+	.sub_sec .title h3{letter-spacing:0; font-size:28px;}
+	.sub_sec .title p{display:inline;}
+
+
+	/* about */
+	.about_intro_sec dl dt span{font-size:36px;}
+
+
+	/* partner.php */
+	.partner_sec ul, .client_sec ul{margin:0 7.5px;}
+	.partner_sec ul li{width:calc(100% - 15px); margin:0 7.5px 15px;}
+	.client_sec ul li{width:calc(50% - 15px); margin:0 7.5px 15px;}
+
+
+	/* work */
+	.work_area_sec ul li > div:last-child{padding:1.5rem 0 2rem;}
+	.project_request_sec > .inner{padding:0 15px;}
+
+}
+/* 480px end */
+
+
+
+
+
+/* ****************************************************************************************** *
+ * 320px
+ * ****************************************************************************************** */
+@media screen and (max-width:320px) {
+	
+	/* contact */
+	.contact_sec .contact_info dl dt{display:none;}
+	.contact_sec .contact_info dl dd{width:100%; padding:0;}
+
+}
+/* 320px end */
